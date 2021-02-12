@@ -7,9 +7,6 @@ terraform {
   }
 }
 
-variable "pvt_key" {}
-variable "pub_key" {}
-
 provider "digitalocean" {
 }
 
